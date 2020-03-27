@@ -3513,7 +3513,9 @@ input[type="button"].btn-block {
       display: flex !important;
       flex-basis: auto; }
     .navbar-expand-xl .navbar-toggler {
-      display: none; } }
+      display: none; }
+	.site-content {
+	  margin-top: 22px; } }
 
 .navbar-expand {
   flex-flow: row nowrap;
