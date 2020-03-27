@@ -19,7 +19,7 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    ashfar:
+    muhammedashfar:
       name:           Muhammed Ashfar
       site:           https://muhd.tk
       avatar:         /assets/images/muhammedashfar.jpg
@@ -29,7 +29,7 @@ authors:
       instagram:      https://www.instagram.com/b.lan.c/
       facebook:       https://facebook.com/muhammed.ashfar.4/
       github:         https://github.com/muhammedashfar7/ 
-    mohammed:
+    mohammeda:
       name:           Mohammed A
       site:           https://muhd.tk
       avatar:         /assets/images/mohammeda.jpg
@@ -39,21 +39,6 @@ authors:
       instagram:      https://www.instagram.com//
       facebook:       https://facebook.com//
       github:         https://github.com//   
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
-
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
 
 
 # Defaults
@@ -64,7 +49,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: muhammedashfar
       avatar: /assets/images/avatar1.jpg
       
   # all pages

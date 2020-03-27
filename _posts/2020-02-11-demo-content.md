@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Demo testing Post"
-author: ashfar
+author: muhammedashfar
 categories: [ tutorial, Video Tutorial ]
 image: assets/images/home.jpg
 tags: [featured, sticky, news]
