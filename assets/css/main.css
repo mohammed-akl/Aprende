@@ -3464,7 +3464,8 @@ input[type="button"].btn-block {
     justify-content: flex-end !important; } 
   .navbar .navbar-collapse .navbar-collapse-header {
     display: block;
-    padding-bottom: 1rem; }
+    padding-bottom: 1rem;
+	border-bottom: 1px solid rgba(0,0,0,.1); }
   .navbar .navbar-collapse .navbar-collapse-header .collapse-brand {
     font-size: 1.2495rem;
     color: #000; }
@@ -3489,7 +3490,9 @@ input[type="button"].btn-block {
     padding-top: 0; }
   .all-post-text {
     padding: 20px 20px 0px 20px; } }
-  
+  .navbar-nav {
+  	padding-top: 5px;
+  }
   
 @media (min-width: 1200px) {
   .navbar-expand-xl {
