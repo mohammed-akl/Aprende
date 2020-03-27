@@ -3493,8 +3493,7 @@ input[type="button"].btn-block {
   .all-post-text {
     padding: 20px 20px 0px 20px; } 
   .navbar-nav {
-  	padding-top: 5px;
-  } }
+  	padding-top: 10px; } }
   
 @media (min-width: 1200px) {
   .navbar-expand-xl {
