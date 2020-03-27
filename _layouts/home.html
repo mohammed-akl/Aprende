@@ -170,7 +170,7 @@ description: "A place where one can read, share and write."
         
         <h4 class="font-weight-bold spanborder"><span>New Releases</span></h4>
 
-        {% for post in site.tags.news %} 
+        {% for post in paginator.posts %}
         
             {% include main-loop-card.html %}
         
