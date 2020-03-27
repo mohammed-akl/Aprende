@@ -1,0 +1,188 @@
+/*
+ =========================================================
+ * Blk• Design System - v1.0.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/blk-design-system
+ * Copyright 2018 Creative Tim (http://www.creative-tim.com)
+
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+
+/*     brand Colors              */
+
+/* navbar color */
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.62475rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.badge:empty {
+  display: none;
+}
+
+.badge {
+  position: relative;
+  top: -1px;
+}
+
+.badge-pill {
+  padding-right: 0.875em;
+  padding-left: 0.875em;
+  border-radius: 0.875rem;
+}
+
+.badge-primary {
+  color: #ffffff;
+  background-color: #e14eca;
+}
+
+.badge-primary[href]:hover,
+.badge-primary[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #d725bb;
+}
+
+.badge-secondary {
+  color: #212529;
+  background-color: #f4f5f7;
+}
+
+.badge-secondary[href]:hover,
+.badge-secondary[href]:focus {
+  color: #212529;
+  text-decoration: none;
+  background-color: #d6dae2;
+}
+
+.badge-success {
+  color: #ffffff;
+  background-color: #00f2c3;
+}
+
+.badge-success[href]:hover,
+.badge-success[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #00bf9a;
+}
+
+.badge-info {
+  color: #ffffff;
+  background-color: #1d8cf8;
+}
+
+.badge-info[href]:hover,
+.badge-info[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0772db;
+}
+
+.badge-warning {
+  color: #ffffff;
+  background-color: #ff8d72;
+}
+
+.badge-warning[href]:hover,
+.badge-warning[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #ff643f;
+}
+
+.badge-danger {
+  color: #ffffff;
+  background-color: #fd5d93;
+}
+
+.badge-danger[href]:hover,
+.badge-danger[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #fc2b71;
+}
+
+.badge-light {
+  color: #ffffff;
+  background-color: #adb5bd;
+}
+
+.badge-light[href]:hover,
+.badge-light[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #919ca6;
+}
+
+.badge-dark {
+  color: #ffffff;
+  background-color: #212529;
+}
+
+.badge-dark[href]:hover,
+.badge-dark[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0a0c0d;
+}
+
+.badge-default {
+  color: #ffffff;
+  background-color: #344675;
+}
+
+.badge-default[href]:hover,
+.badge-default[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #243152;
+}
+
+.badge-white {
+  color: #212529;
+  background-color: #ffffff;
+}
+
+.badge-white[href]:hover,
+.badge-white[href]:focus {
+  color: #212529;
+  text-decoration: none;
+  background-color: #e6e6e6;
+}
+
+.badge-neutral {
+  color: #212529;
+  background-color: #ffffff;
+}
+
+.badge-neutral[href]:hover,
+.badge-neutral[href]:focus {
+  color: #212529;
+  text-decoration: none;
+  background-color: #e6e6e6;
+}
+
+.badge-darker {
+  color: #ffffff;
+  background-color: black;
+}
+
+.badge-darker[href]:hover,
+.badge-darker[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: black;
+}
