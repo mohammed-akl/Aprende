@@ -3493,7 +3493,9 @@ input[type="button"].btn-block {
   .all-post-text {
     padding: 20px 20px 0px 20px; } 
   .navbar-nav {
-  	padding-top: 10px; } }
+  	padding-top: 10px; }
+  .site-content {
+      margin-top: 22px;} }
   
 @media (min-width: 1200px) {
   .navbar-expand-xl {
@@ -3513,9 +3515,7 @@ input[type="button"].btn-block {
       display: flex !important;
       flex-basis: auto; }
     .navbar-expand-xl .navbar-toggler {
-      display: none; }
-	.site-content {
-	  margin-top: 22px; } }
+      display: none; } }
 
 .navbar-expand {
   flex-flow: row nowrap;
