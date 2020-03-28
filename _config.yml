@@ -31,7 +31,7 @@ authors:
       github:         https://github.com/muhammedashfar7/ 
     mohammeda:
       name:           Mohammed A
-      site:           https://muhd.tk
+      site:           http://aklmohammed.tk/
       avatar:         /assets/images/mohammeda.jpg
       bio:            "Hi, I am Mohammed A, the author of aprende., the theme you're currently previewing. I hope you like it!"
       email:          mohammedalukkal123@gmail.com
@@ -39,7 +39,16 @@ authors:
       instagram:      https://www.instagram.com//
       facebook:       https://facebook.com//
       github:         https://github.com//   
-
+    anirudhparam:
+      name:           Anirudh Parameswaran
+      site:           
+      avatar:         /assets/images/anirudhparam.jpg
+      bio:            "Hi, I am Anirudh Parameswaran, the author of aprende., the theme you're currently previewing. I hope you like it!"
+      email:          anisukhadam@gmail.com
+      twitter:        https://twitter.com/
+      instagram:      https://www.instagram.com/a_n_i_s_o_l/
+      facebook:       https://www.facebook.com/profile.php?id=100007625524219
+      github:         https://github.com//
 
 # Defaults
 defaults:
