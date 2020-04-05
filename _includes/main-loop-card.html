@@ -1,4 +1,4 @@
-<div class="mb-5 d-flex justify-content-between main-loop-card post-all-post">
+<div class="col-md-5 mb-5 d-flex justify-content-between main-loop-card post-all-post" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">
         <!-- post excerpt -->    
 <div class="pr-3 all-post-text">
 	<h2 class="mb-1 h4 font-weight-bold">
@@ -20,9 +20,4 @@
 		{{ post.date | date: '%b %d, %Y' }}
 	</small>
 </div>
-        <!-- post image -->  
-{% if post.image %}
-	<div class="col-md-6 pr-5 text-right all-post-image" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">
-	</div>
-{% endif %}
 </div>
