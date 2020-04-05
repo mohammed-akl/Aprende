@@ -50,6 +50,20 @@ authors:
       facebook:       https://www.facebook.com/profile.php?id=100007625524219
       github:         https://github.com//
 
+categories:
+  jekyll:
+    name: Jekyll
+	description: "This category includes Jekyll related posts and tutorials."
+  introduction:
+    name: Introduction
+	description: "This category includes Jekyll related posts and tutorials."
+  wordpress:
+    name: WordPress
+	description: "This category includes Jekyll related posts and tutorials."
+  joomla:
+    name: Joomla
+	description: "This category includes Jekyll related posts and tutorials."
+	
 # Defaults
 defaults:
 
