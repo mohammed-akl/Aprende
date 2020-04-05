@@ -8533,7 +8533,7 @@ html {
 	border-radius: 5px;
   }
   .post-all-post {
-	box-shadow: 0 0 15px -2px #ccc;
+	box-shadow: 0 2px 8px -1px #ccc;
 	border-radius: 10px;
   }
   .all-post-image {
@@ -8541,7 +8541,7 @@ html {
   }
   .all-post-text {
   	padding: 20px;
-	border:3px solid #fff;
+	border:2px dashed #fff;
 	border-radius:10px;
   }
   .options {
