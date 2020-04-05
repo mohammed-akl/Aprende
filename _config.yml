@@ -53,17 +53,21 @@ authors:
 categories:
   jekyll:
     name: Jekyll
-	description: "This category includes Jekyll related posts and tutorials."
+    description: "This category includes Jekyll related posts and tutorials."
+    image: /assets/images/anirudhparam.jpg
   introduction:
     name: Introduction
-	description: "This category includes Jekyll related posts and tutorials."
+    description: "This category includes Jekyll related posts and tutorials."
+    image: /assets/images/anirudhparam.jpg
   wordpress:
     name: WordPress
-	description: "This category includes Jekyll related posts and tutorials."
+    description: "This category includes Jekyll related posts and tutorials."
+    image: /assets/images/anirudhparam.jpg
   joomla:
     name: Joomla
-	description: "This category includes Jekyll related posts and tutorials."
-	
+    description: "This category includes Jekyll related posts and tutorials."
+    image: /assets/images/anirudhparam.jpg
+
 # Defaults
 defaults:
 
