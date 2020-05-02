@@ -39,3 +39,17 @@ collections:
             widget: "string"
             required: false
             hint: "Enter the folder name where the site files are stored"
+          - label: "Disqus Short Name"
+            name: "disqus"
+            widget: "string"
+            required: false
+            hint: "Ex: https://yourshortname.disqus.com"
+          - label: "E-mail"
+            name: "email"
+            widget: "string"
+            required: false
+          - label: "Mailchimp List URL"
+            name: "mailchimp-list"
+            widget: "string"
+            hint: "Ex: https://aprende.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
+          
