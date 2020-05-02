@@ -1,8 +1,8 @@
 ---
-date: 2020-05-02 15:01:30
+date: 2020-05-02T15:01:30.000Z
 layout: post
 title: What is Jekyll
-author: muhammedashfar
+author: muhammed ashfar
 image: assets/images/11.jpg
 categories:
   - Jekyll
