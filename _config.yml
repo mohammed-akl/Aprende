@@ -100,6 +100,21 @@ menu:
   - title: "Contact"
     icon: "icon-pencil"
     url: "/contact"
+# Footer Icons
+social:
+  - title: "Github"
+    icon: "fa-github"
+    url: "https://github.com/muhammedashfar7/mundana"
+  - title: "Instagram"
+    icon: "fa-instagram"
+    url: "https://www.instagram.com/b.lan.c/"
+  - title: "Twitter"
+    icon: "fa-twitter"
+    url: "https://twitter.com/ashfar_muhammed"
+  - title: "Facebook"
+    icon: "fa-facebook-square"
+    url: "https://facebook.com/muhammed.ashfar.4/"
+
 
 # Collections
 collections:

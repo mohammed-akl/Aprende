@@ -32,9 +32,6 @@
 	<!-- Badge designs -->
 	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/design.css">
 
-	<!-- Search bar designs -->
-	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/search.css">
-
 	<!-- fontawesome icons -->
 	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/all.css">
 
@@ -131,12 +128,12 @@
                 <span class="navbar-brand mr-2 mb-0"><strong>{{site.name}}</strong></span>
                 <span>Copyright © <script>document.write(new Date().getFullYear())</script>.</span>
 
-                <!--  Github Repo Star Btn-->
-                <a class="text-dark ml-1" target="_blank" href="https://github.com/muhammedashfar7/mundana"><i class="fab fa-github"></i></a>
-				<a class="text-dark ml-1" target="_blank" href="https://www.instagram.com/b.lan.c/"><i class="fab fa-instagram"></i></a>
-				<a class="text-dark ml-1" target="_blank" href="https://twitter.com/ashfar_muhammed"><i class="fab fa-twitter"></i></a>
-				<a class="text-dark ml-1" target="_blank" href="https://facebook.com/muhammed.ashfar.4/"><i class="fab fa-facebook-square"></i></a>
-				<a class="text-dark ml-1" target="_blank" href="https://subscribe.aprende.tk/in/"><i class="fas fa-bell"></i></a>
+      <!--  Site Social Buttons-->
+      {% for item in site.social %}
+       {% if item.icon and item.url %}
+        <a class="text-dark ml-1" target="_blank" href="{{icon.url}}"><i class="fab {{item.icon}}"></i></a>
+       {% endif %}
+      {% endfor %}
 
             </div>
             <div>

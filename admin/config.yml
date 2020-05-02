@@ -67,3 +67,18 @@ collections:
               - label: "Menu URL"
                 name: "url"
                 widget: "string"
+          - label: "Footer Social Icons"
+            name: "social"
+            widget: "list"
+            required: true
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Icon Code"
+                name: "icon"
+                widget: "string"
+                hint: "Find it on fontawesome icons. fab icons are used"
+              - label: "Target URL"
+                name: "url"
+                widget: "string"
