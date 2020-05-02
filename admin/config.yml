@@ -3,6 +3,8 @@ backend:
   branch: gh-pages
 
 publish_mode: editorial_workflow
+display_url: https://aprende.tk
+logo_url: https://aprende.tk/assets/images/logo.png
 
 media_folder: "assets/images"
 collections:
@@ -125,6 +127,7 @@ collections:
         widget: "markdown"
   - label: "Authors"
     name: "authors"
+    identifier_field: "display_name"
     folder: "_authors/"
     create: true
     slug: "{{slug}}"
@@ -138,7 +141,7 @@ collections:
       - label: "Permalink"
         name: "permalink"
         widget: "hidden"
-        default: "{{name}}"
+        default: "/{{slug}}/"
       - label: "Photo"
         name: "photo"
         widget: "image"
