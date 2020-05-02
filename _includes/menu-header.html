@@ -1,17 +1,8 @@
 <!--  Replace menu links here -->
-
+{% for item in site.menu %}
+ {% if item.title item.icon and item.url %}
 <li class="nav-item">
-<a class="nav-link" href="{{site.baseurl}}/index"><i class="tim-icons icon-tv-2"></i><p class="options">Home</p></a>
+<a class="nav-link" href="{{site.baseurl}}{{item.url}}"><i class="tim-icons {{item.icon}}"></i><p class="options">{{item.title}}</p></a>
 </li>
-<li class="nav-item">
-<a class="nav-link" href="{{site.baseurl}}/categories"><i class="tim-icons icon-single-02"></i><p class="options">Categories</p></a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="{{site.baseurl}}/authors"><i class="tim-icons icon-single-02"></i><p class="options">Authors</p></a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="{{site.baseurl}}/blog"><i class="tim-icons icon-single-copy-04"></i><p class="options">Blog</p></a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="{{site.baseurl}}/contact"><i class="tim-icons icon-pencil"></i><p class="options">Contact</p></a>
-</li>
+{% endif %}
+{% endfor %}

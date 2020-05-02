@@ -12,12 +12,12 @@ include: ["_pages"]
 permalink: /:title/
 
 # Plugins
-plugins: 
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  
+
 authors:
     muhammedashfar:
       name:           Muhammed Ashfar
@@ -28,7 +28,7 @@ authors:
       twitter:        https://twitter.com/ashfar_muhammed
       instagram:      https://www.instagram.com/b.lan.c/
       facebook:       https://facebook.com/muhammed.ashfar.4/
-      github:         https://github.com/muhammedashfar7/ 
+      github:         https://github.com/muhammedashfar7/
     mohammeda:
       name:           Mohammed A
       site:           http://aklmohammed.tk/
@@ -38,7 +38,7 @@ authors:
       twitter:        https://twitter.com/
       instagram:      https://www.instagram.com//
       facebook:       https://facebook.com//
-      github:         https://github.com//   
+      github:         https://github.com//
     anirudhparam:
       name:           Anirudh Parameswaran
       site:           https://www.instagram.com/a_n_i_s_o_l/
@@ -60,13 +60,13 @@ defaults:
       layout: post
       author: muhammedashfar
       avatar: /assets/images/avatar1.jpg
-      
+
   # all pages
   - scope:
       path: "_pages"
     values:
       layout: page
-      
+
 # Syntax
 markdown: kramdown
 highlighter: rouge
@@ -85,6 +85,21 @@ jekyll-archives:
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules, SECURITY.markdown]
+
+# Menu
+menu:
+  - title: "Home"
+    icon: "icon-tv-2"
+    url: "/"
+  - title: "Blog"
+    icon: "icon-single-copy-04"
+    url: "/blog"
+  - title: "Authors"
+    icon: "icon-single-02"
+    url: "/authors"
+  - title: "Contact"
+    icon: "icon-pencil"
+    url: "/contact"
 
 # Collections
 collections:

@@ -52,4 +52,18 @@ collections:
             name: "mailchimp-list"
             widget: "string"
             hint: "Ex: https://aprende.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
-          
+          - label: "Menu"
+            name: "menu"
+            widget: "list"
+            required: true
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Icon Code"
+                name: "icon"
+                widget: "string"
+                hint: "Find it on theme documentation."
+              - label: "Menu URL"
+                name: "url"
+                widget: "string"
