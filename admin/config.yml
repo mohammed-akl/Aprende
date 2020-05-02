@@ -1,0 +1,41 @@
+backend:
+  name: git-gateway
+  branch: gh-pages
+
+publish_mode: editorial_workflow
+
+media_folder: "assets/images"
+collections:
+  - label: "Site Configuration"
+    name: "site_congfiguration"
+    editor:
+      preview: false
+      delete: false
+    files:
+      - label: "Site Info"
+        name: "site_info"
+        file: "_config.yml"
+        fields:
+          - label: "Website Title"
+            name: "name"
+            widget: "string"
+            required: true
+          - label: "Description"
+            name: "description"
+            widget: "string"
+            required: false
+            hint: "This will be displayed in search."
+          - label: "Site Logo"
+            name: "logo"
+            widget: "image"
+            required: false
+          - label: "Favicon"
+            name: "favicon"
+            widget: "image"
+            required: false
+            hint: ".ico format recommended"
+          - label: "Baseurl"
+            name: "baseurl"
+            widget: "string"
+            required: false
+            hint: "Enter the folder name where the site files are stored"
