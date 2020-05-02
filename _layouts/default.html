@@ -22,22 +22,22 @@
 
     <!-- Theme Stylesheet -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.css">
-	
+
 	<!-- Animation -->
 	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/animate.css">
-	
+
 	<!-- Hover animation -->
 	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/hover.css">
-	
+
 	<!-- Badge designs -->
 	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/design.css">
-	
+
 	<!-- Search bar designs -->
 	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/search.css">
-	
+
 	<!-- fontawesome icons -->
 	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/all.css">
-	
+
 	<!-- Nucleo Icons -->
 	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/nucleo-icons.css">
 
@@ -46,6 +46,8 @@
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+  <!-- Netlify CMS script -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     {% include tracking-header.html %}
     {% include mailchimp.html %}
@@ -108,7 +110,19 @@
     <script src="{{site.baseurl}}/assets/js/theme.js"></script>
 
     <script src="{{site.baseurl}}/assets/js/blk-design-system.min.js"></script>
-	
+   <!-- Netlify CMS script -->
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
     <!-- Footer -->
     <footer class="bg-white border-top p-3 text-muted small">
         <div class="container">
