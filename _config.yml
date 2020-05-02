@@ -18,38 +18,6 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
-authors:
-    muhammedashfar:
-      name:           Muhammed Ashfar
-      site:           https://muhd.tk
-      avatar:         /assets/images/muhammedashfar.jpg
-      bio:            "Hi, I am Muhammed Ashfar, the author of aprende., the theme you're currently previewing. I hope you like it!"
-      email:          muhammed.ashfar.7@gmail.com
-      twitter:        https://twitter.com/ashfar_muhammed
-      instagram:      https://www.instagram.com/b.lan.c/
-      facebook:       https://facebook.com/muhammed.ashfar.4/
-      github:         https://github.com/muhammedashfar7/
-    mohammeda:
-      name:           Mohammed A
-      site:           http://aklmohammed.tk/
-      avatar:         /assets/images/mohammeda.jpg
-      bio:            "Hi, I am Mohammed A, the author of aprende., the theme you're currently previewing. I hope you like it!"
-      email:          mohammedalukkal123@gmail.com
-      twitter:        https://twitter.com/
-      instagram:      https://www.instagram.com//
-      facebook:       https://facebook.com//
-      github:         https://github.com//
-    anirudhparam:
-      name:           Anirudh Parameswaran
-      site:           https://www.instagram.com/a_n_i_s_o_l/
-      avatar:         /assets/images/anirudhparam.jpg
-      bio:            "Hi, I am Anirudh Parameswaran, the author of aprende., the theme you're currently previewing. I hope you like it!"
-      email:          anisukhadam@gmail.com
-      twitter:        https://twitter.com/
-      instagram:      https://www.instagram.com/a_n_i_s_o_l/
-      facebook:       https://www.facebook.com/profile.php?id=100007625524219
-      github:         https://github.com//
-
 # Defaults
 defaults:
 
