@@ -25,14 +25,16 @@ permalink: "/authors"
           {% endif %}
           {% if author.facebook_username %}
             <a target="_blank" href="https://www.facebook.com/{{ author.facebook_username }}"><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
-          {% if author.github_username %}
-			      <a target="_blank" href="{{ author[1].github }}"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a> &nbsp;
-          {% if author.github_username %}
-			      <a target="_blank" href="{{ author[1].email }}"><i class="far fa-envelope text-muted" aria-hidden="true"></i></a> &nbsp;
-          {% if author.github_username %}
-			      <a target="_blank" href="{{ author[1].facebook }}"><i class="fab fa-facebook-square text-muted" aria-hidden="true"></i></a> &nbsp;
-          {% if author.github_username %}
-			      <a target="_blank" href="{{ author[1].instagram }}"><i class="fab fa-instagram text-muted" aria-hidden="true"></i></a> &nbsp;
+          {% endif %}
+          {% if author.twitter_username %}
+			      <a target="_blank" href="https://twitter.com/{{ author.twitter_username }}"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a> &nbsp;
+          {% endif %}
+          {% if author.email %}
+			      <a target="_blank" href="{{ author.email }}"><i class="far fa-envelope text-muted" aria-hidden="true"></i></a> &nbsp;
+          {% endif %}
+          {% if author.instagram_username %}
+			      <a target="_blank" href="https://instagram.com/{{ author.instagram_username }}"><i class="fab fa-instagram text-muted" aria-hidden="true"></i></a> &nbsp;
+          {% endif %}
             </div>
             </div>
             </div>

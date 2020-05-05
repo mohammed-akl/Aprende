@@ -90,3 +90,5 @@ collections:
     output: true
     output_ext: .html
     permalink: /book-reviews/:path/
+  authors:
+    output: true

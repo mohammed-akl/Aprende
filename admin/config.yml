@@ -162,6 +162,10 @@ collections:
       - label: "Bio"
         name: "bio"
         widget: "text"
+      - label: "E mail"
+        name: "email"
+        widget: "string"
+        required: false
       - label: "GitHub Username"
         name: "github_username"
         widget: "string"
@@ -176,13 +180,5 @@ collections:
         required: false
       - label: "Instagram Username"
         name: "instagram_username"
-        widget: "string"
-        required: false
-      - label: "LinkedIn Username"
-        name: "linkedin_username"
-        widget: "string"
-        required: false
-      - label: "Medium Username"
-        name: "medium_username"
         widget: "string"
         required: false
