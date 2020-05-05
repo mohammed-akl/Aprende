@@ -24,7 +24,10 @@ permalink: "/authors"
             <a target="_blank" href="https://github.com/{{ author.github_username }}"><i class="fab fa-github text-muted" aria-hidden="true"></i></a>  &nbsp;
           {% endif %}
           {% if author.facebook_username %}
-            <a target="_blank" href="https://www.facebook.com/{{ author.facebook_username }}"><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
+            <a target="_blank" href="https://www.facebook.com/{{ author.facebook_username }}"><i class="fa fa-facebook-square text-muted" aria-hidden="true"></i></a> &nbsp;
+          {% endif %}
+          {% if author.web %}
+            <a target="_blank" href="{{ author.web }}"><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
           {% endif %}
           {% if author.twitter_username %}
 			      <a target="_blank" href="https://twitter.com/{{ author.twitter_username }}"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a> &nbsp;
