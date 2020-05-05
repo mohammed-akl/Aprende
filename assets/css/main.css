@@ -7744,7 +7744,7 @@ html {
     flex: 0 0 50%;
     max-width: 50%; }
   .col-md-6-sticky {
-    border-radius: 0px 5px 5px 0px; }
+    border-radius: 0px; }
   .col-md-7 {
     flex: 0 0 58.33333%;
     max-width: 58.33333%; }
@@ -8528,8 +8528,7 @@ html {
     align-self: stretch !important; } }
   /* Added codes */
   .topfirstimage {
-  	box-shadow: 0 0 15px -2px #ccc;
-	border-radius: 5px;
+  	box-shadow: 0 30px 60px -10px rgba(0,0,0,.22),0 18px 36px -18px rgba(0,0,0,.25);
   }
   .post-all-post {
 	box-shadow: 0 2px 8px -1px #ccc;
