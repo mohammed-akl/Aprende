@@ -8547,3 +8547,13 @@ html {
   	margin-left: 10px;
 	display: inline;
   }
+  li.lunrsearchresult {
+    border-left: 4px solid #03a87c;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    padding: 7px;
+    background: #03a87c;
+  }
+  ul.mb-0 {
+    list-style-type: none;
+  }
