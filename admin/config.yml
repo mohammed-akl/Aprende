@@ -141,7 +141,7 @@ collections:
       - label: "Permalink"
         name: "permalink"
         widget: "hidden"
-        default: "/{{slug}}/"
+        default: "/{{display_name | slugify }}"
       - label: "Photo"
         name: "photo"
         widget: "image"
