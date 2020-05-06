@@ -192,7 +192,7 @@ collections:
         required: false
   - label: "Pages"
     name: "pages"
-    folder: "pages"
+    folder: "_pages"
     create: true
     slug: "{{slug}}"
     preview_path: "{{slug}}"
