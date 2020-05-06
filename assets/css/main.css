@@ -1722,7 +1722,6 @@ textarea.form-control {
   padding: 0.45rem 1.2rem;
   font-size: 1rem;
   line-height: 1.6;
-  border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media screen and (prefers-reduced-motion: reduce) {
     .btn {
@@ -8565,5 +8564,8 @@ html {
 @media (max-width: 991.98px) {
   .author-box-collapse {
     visibility: collapse;
+  }
+  .search-100 {
+    width: 100%;
   }
 }
