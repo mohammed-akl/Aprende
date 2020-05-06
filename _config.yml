@@ -77,9 +77,9 @@ menu:
   - title: Authors
     icon: icon-single-02
     url: /authors
-  - title: Contact
-    icon: icon-pencil
-    url: /contact
   - title: Book Reviews
     url: /book-reviews
     icon: icon-bullet-list-67
+  - title: Contact
+    icon: icon-pencil
+    url: /contact
