@@ -5980,9 +5980,7 @@ button.bg-lightblue:focus {
   width: 75% !important; }
 
 .w-100 {
-  width: 100% !important;
-  border-radius:5px 5px 5px 5px;
-  box-shadow: 0 0 15px -2px #ccc; }
+  width: 100% !important; }
 
 .w-newsletter-100 {
   width: 100% !important;
