@@ -1,94 +1,45 @@
-# Site
-name: 'aprende.'
-description: 'The place where you can read about all contents. Collecting the valuable information that our authors have and publishing each content to you.'
-logo: '/assets/images/logo.png'
-favicon: '/assets/images/favicon.ico'
-baseurl: ''
-disqus: 'ape-1'
-email: 'aprende.blogs@gmail.com'
-mailchimp-list: 'https://subscribe.aprende.tk/in/'
-
-include: ["_pages"]
-permalink: /:title/
-
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-
-# Defaults
+highlighter: rouge
+disqus: ape-1
+include:
+  - _pages
+name: aprende.
+logo: /assets/images/logo.png
+permalink: /:title/
+social:
+  - title: Github
+    icon: fa-github
+    url: https://github.com/muhammedashfar7/mundana
+  - title: Instagram
+    icon: fa-instagram
+    url: https://www.instagram.com/b.lan.c/
+  - title: Twitter
+    icon: fa-twitter
+    url: https://twitter.com/ashfar_muhammed
+  - title: Facebook
+    icon: fa-facebook-square
+    url: https://facebook.com/muhammed.ashfar.4/
+markdown: kramdown
 defaults:
-  # all Authors
   - scope:
-      path: "_authors"
+      path: _authors
     values:
       layout: author
-  # all posts
   - scope:
-      path: "_posts"
+      path: _posts
     values:
       layout: post
       author: muhammedashfar
       avatar: /assets/images/avatar1.jpg
-
-  # all pages
   - scope:
-      path: "_pages"
+      path: _pages
     values:
       layout: page
-
-# Syntax
-markdown: kramdown
-highlighter: rouge
-
-# Paginate
-paginate: 10
-
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-
-
-# Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules, SECURITY.markdown]
-
-# Menu
-menu:
-  - title: "Home"
-    icon: "icon-tv-2"
-    url: "/"
-  - title: "Blog"
-    icon: "icon-single-copy-04"
-    url: "/blog"
-  - title: "Authors"
-    icon: "icon-single-02"
-    url: "/authors"
-  - title: "Contact"
-    icon: "icon-pencil"
-    url: "/contact"
-# Footer Icons
-social:
-  - title: "Github"
-    icon: "fa-github"
-    url: "https://github.com/muhammedashfar7/mundana"
-  - title: "Instagram"
-    icon: "fa-instagram"
-    url: "https://www.instagram.com/b.lan.c/"
-  - title: "Twitter"
-    icon: "fa-twitter"
-    url: "https://twitter.com/ashfar_muhammed"
-  - title: "Facebook"
-    icon: "fa-facebook-square"
-    url: "https://facebook.com/muhammed.ashfar.4/"
-
-
-# Collections
+favicon: /assets/images/favicon.ico
 collections:
   book_reviews:
     output: true
@@ -96,3 +47,39 @@ collections:
     permalink: /book-reviews/:path/
   authors:
     output: true
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: /category/:name/
+paginate: 10
+exclude:
+  - README.markdown
+  - package.json
+  - grunt.js
+  - Gruntfile.js
+  - Gruntfile.coffee
+  - node_modules
+  - SECURITY.markdown
+description: The place where you can read about all contents. Collecting the
+  valuable information that our authors have and publishing each content to you.
+baseurl: ""
+email: aprende.blogs@gmail.com
+mailchimp-list: https://subscribe.aprende.tk/in/
+menu:
+  - title: Home
+    icon: icon-tv-2
+    url: /
+  - title: Blog
+    icon: icon-single-copy-04
+    url: /blog
+  - title: Authors
+    icon: icon-single-02
+    url: /authors
+  - title: Contact
+    icon: icon-pencil
+    url: /contact
+  - title: Book Reviews
+    url: /book-reviews
+    icon: icon-bullet-list-67
