@@ -6,18 +6,18 @@ layout: default
     <div class="col-md-8">
         <div class="row align-items-center mb-5">
             <div class="col-md-9">
-                <h2 class="font-weight-bold">{{author.display_name}} <span class="small btn btn-outline-success btn-sm btn-round"><a href="{{ site.authors.jane.twitter }}">Follow</a></span></h2>
+                <h2 class="font-weight-bold">{{page.display_name}} <span class="small btn btn-outline-success btn-sm btn-round"><a href="{{ site.authors.jane.twitter }}">Follow</a></span></h2>
                 <p><a href="{{ site.authors.jane.site }}">{{ site.authors.jane.site }}</a></p>
                 <p class="excerpt">{{page.bio}}</p>
             </div>
             <div class="col-md-3 text-right">
               {% if page.photo %}
-                <img alt="{{ author.display_name }}" src="{{ author.photo }}" class="rounded-circle" height="100" width="100">
+                <img alt="{{ page.display_name }}" src="{{page.photo}}" class="rounded-circle" height="100" width="100">
               {% endif %}
             </div>
         </div>
-        <h4 class="font-weight-bold spanborder"><span>Posts by {{ author.display_name }}</span></h4>
-            {% assign posts = site.posts | where:"author", author.name %}
+        <h4 class="font-weight-bold spanborder"><span>Posts by {{page.display_name}}</span></h4>
+            {% assign posts = site.posts | where:"author", page.name %}
             {% for post in posts %}
             {% include main-loop-card.html %}
             {% endfor %}
