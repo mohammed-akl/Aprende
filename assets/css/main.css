@@ -3462,7 +3462,6 @@ input[type="button"].btn-block {
     top: 0;
     margin: 0.7rem;
     background: #ffffff;
-    border-radius: 0.2857rem;
     padding: 1.4rem;
 	box-shadow:0 0 15px -2px #ccc; }
   .justify-content-end {
@@ -8534,12 +8533,10 @@ html {
   }
   .all-post-text {
   	padding: 20px;
-	border:2px dashed #fff;
-	border-radius:10px;
   }
   .options {
   	margin-left: 10px;
-	display: inline;
+	  display: inline;
   }
   li.lunrsearchresult {
     border-left: 4px solid #03a87c;
@@ -8555,3 +8552,18 @@ html {
     padding-top: 12px;
     padding-bottom: 12px;
   }
+
+@media (max-width: 475px) {
+  .box-collapse {
+    visibility: collapse;
+  }
+  .all-post-text {
+  box-shadow: 0 30px 60px -10px rgba(0,0,0,.22),0 18px 36px -18px rgba(0,0,0,.25);
+  }
+}
+
+@media (max-width: 991.98px) {
+  .author-box-collapse {
+    visibility: collapse;
+  }
+}
