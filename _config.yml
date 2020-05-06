@@ -20,7 +20,11 @@ plugins:
 
 # Defaults
 defaults:
-
+  # all Authors
+  - scope:
+      path: "_authors"
+    values:
+      layout: author
   # all posts
   - scope:
       path: "_posts"

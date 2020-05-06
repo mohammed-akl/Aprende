@@ -13,7 +13,7 @@ permalink: "/authors"
             <div class="row border">
             <div class="col-md-5 mb-4 mb-md-0 box author-box-collapse" style="background-size:cover;background-image:url({{ site.baseurl }}{{ author.photo }});"></div>
             <div class="col-md-7 padding-12">
-            <a href="{{ site.baseurl }}{{ author.ur l}}">
+            <a href="{{ site.baseurl }}{{ author.display_name | slugify }}">
             <h4 class="text-dark mb-0"> {{ author.display_name }} </h4>
             <small class="d-inline-block mt-1 mb-3 font-weight-normal">(View Posts)</small>
             <div class="excerpt">{{ author.bio }}</div>
