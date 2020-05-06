@@ -827,12 +827,12 @@ div.a2a_full_footer {display:none;}
 	 box-shadow: 0 30px 60px -10px rgba(0,0,0,.22),0 18px 36px -18px rgba(0,0,0,.25);
  }
 
- .book-info {
+ .book_info {
 	 display: inline-flex;
 	 padding: 10px;
  }
 
- .book-meta {
+ .book_meta {
 	 margin-left: 10px;
 	 margin-top: 15px;
 	 line-height: 1.2rem;
