@@ -1,9 +1,10 @@
 ---
 layout: author
+permalink: /authors/{{slug}}
 photo: /assets/images/regprofile.png
 name: muhammed ashfar
 display_name: Muhammed Ashfar
-bio: hi, I am Muhammed Ashfar. A front end developer and graphic designer
+bio: hi, I am Muhammed Ashfar. A front end developer and graphic designer.
 email: muhammed.ashfar.7@gmail.com
 web: https://muhd.tk
 github_username: muhammedashfar7
