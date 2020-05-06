@@ -2,18 +2,18 @@
 layout: page
 title: Book Reviews
 description: "My awesome reading notes. Some are in-depth, some are short, some include quotes. All are for me."
+permalink: /book-reviews
 ---
 <div class="home">
-	<div class="call-out"><h1>Book Reviews</h1>
-	    Here are notes I've taken on books I've read. Some are in-depth, some are short, some include quotes. I've included ratings and genres for future sorting.
-	</div>
   <div class="posts">
 
   {% assign reviews = site.book_reviews | sort: "date" | reverse %}
   {% for review in reviews %}
   	<div class="post-teaser">
-  			  <div class="book_info">
-				  {% if review.cover %}<div class="book_cover"><a href="{{ review.url | prepend: site.baseurl }}"><img src="/img/{{ review.cover }}" alt="Book cover for {{ review.title }}" /></a></div>{% endif %}
+  			  <div class="col-md-12 book_info">
+				  {% if review.cover %}
+					<div class="col-md-3 book_cover"><a href="{{ review.url | prepend: site.baseurl }}"><img src="/img/{{ review.cover }}" alt="Book cover for {{ review.title }}" /></a></div>
+					{% endif %}
 				  <div class="book_meta">
 					  <h3><em><a href="{{ review.url | prepend: site.baseurl }}">{{ review.title }}</a></em></h3>
 					  <p>Author: {{ review.author }}</p>
