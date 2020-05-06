@@ -1,6 +1,10 @@
 <div class="col-md-5 mb-5 d-flex justify-content-between main-loop-card post-all-post blurb-border animated jello" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">
-        <!-- post excerpt -->    
+        <!-- post excerpt -->
 <div class="pr-3 all-post-text">
+	{% if post.image %}
+	<div class="col-md-3 pr-0 text-right"  style="background-size:cover;background-image:url({{site.baseurl}}{{ post.image }});">
+	</div>
+	{% endif %}
 	<h2 class="mb-1 h4 font-weight-bold">
 	<a href ="{{site.baseurl}}{{post.url}}" class="text-dark hvr-grow">{{ post.title }}</a>
 	</h2>

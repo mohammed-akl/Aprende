@@ -3,7 +3,7 @@ layout: post
 title:  "Quick Start Guide"
 author: muhammedashfar
 categories: [ Jekyll, tutorial ]
-image: assets/images/12.jpg
+image: /assets/images/12.jpg
 tags: [news]
 ---
 

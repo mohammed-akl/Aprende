@@ -3,7 +3,7 @@ date: 2020-05-01 17:54:09
 layout: post
 title: Could we reinvent the charm of old cities
 author: muhammed ashfar
-image: assets/images/home.jpg
+image: /assets/images/home.jpg
 categories:
   - Jekyll
   - tutorial
