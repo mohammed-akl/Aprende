@@ -1,6 +1,10 @@
 ---
-date: 2020-05-06 13:06:37
+date: 2020-05-05 16:06:37
 title: Privacy Policy
+description: This is our official privacy policy statement
+tags:
+  - privacy policy
+  - aprende
 ---
 
 "{{site.name}}" takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used.
