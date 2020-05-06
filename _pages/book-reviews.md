@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Book Reviews
-description: "My awesome reading notes. Some are in-depth, some are short, some include quotes. All are for me."
 permalink: /book-reviews
+date: 2020-05-06 15:48:03
+title: Book Reviews
+description: My awesome reading notes. Some are in-depth, some are short, some
+  include quotes. All are for me.
 ---
 <div class="home">
   <div class="posts">
