@@ -211,7 +211,7 @@ collections:
         widget: "string"
       - label: "Permalink"
         name: "permalink"
-        widget: "hidden"
+        widget: "string"
         default: "/{{slug}}/"
       - label: "Description"
         name: "description"
