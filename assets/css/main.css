@@ -5209,7 +5209,8 @@ button.bg-lightblue:focus {
   background-color: transparent !important; }
 
 .border {
-  border: 1px solid #e8f3ec !important; }
+  border: 1px solid transparent !important;
+  box-shadow: 0 30px 60px -10px rgba(0,0,0,.22),0 18px 36px -18px rgba(0,0,0,.25);}
 
 .border-top {
   border-top: 1px solid #e8f3ec !important; }
