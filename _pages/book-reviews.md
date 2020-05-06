@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /book-reviews
-date: 2020-05-06 15:48:03
+date: 2020-05-05 18:48:03
 title: Book Reviews
 description: My awesome reading notes. Some are in-depth, some are short, some
   include quotes. All are for me.
