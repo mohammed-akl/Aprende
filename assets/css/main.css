@@ -8555,3 +8555,7 @@ html {
   ul.mb-0 {
     list-style-type: none;
   }
+  .padding-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
